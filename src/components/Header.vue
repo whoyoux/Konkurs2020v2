@@ -9,8 +9,8 @@
         <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav>
                 <b-nav-item to="/">Licznik zakażeń</b-nav-item>
-                <b-nav-item to="/1">Nowe zakażenia na świecie</b-nav-item>
                 <b-nav-item to="/in_poland">Zakażenia w Polsce</b-nav-item>
+                <b-nav-item to="/search">Znajdź w danym kraju</b-nav-item>
                 <b-nav-item to="/prevention">Profilaktyka</b-nav-item>
             </b-navbar-nav>
         </b-collapse>

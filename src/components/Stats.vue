@@ -1,13 +1,13 @@
 <template>
 <b-container fluid>
     <b-row class="row" v-if="withAll">
-        <b-col sm="12" lg="6" class="col mb-3">
+        <b-col md="12" lg="6" class="col mb-3" v-if="withAll">
             <div class="info">
                 <h4 style="color: var(--warning)">{{parseInt(all).toLocaleString()}}</h4>
                 <h5 style="color: #a0aec0">{{allText}}</h5>
             </div>
         </b-col>
-        <b-col sm="12" lg="6" class="col mb-3">
+        <b-col md="12" lg="6" class="col mb-3" v-if="withAll">
             <div class="info">
                 <h4 style="color: var(--danger)">{{parseInt(allDeaths).toLocaleString()}}</h4>
                 <h5 style="color: #a0aec0">{{allDeathsText}}</h5>
@@ -15,19 +15,19 @@
         </b-col>
     </b-row>
     <b-row class="row">
-        <b-col sm="12" lg="4" class="col">
+        <b-col md="12" lg="4" class="col">
             <div class="info">
                 <h4 style="color: var(--warning)">{{parseInt(sick).toLocaleString()}}</h4>
                 <h5 style="color: #a0aec0">{{sickText}}</h5>
             </div>
         </b-col>
-        <b-col sm="12" lg="4" class="col">
+        <b-col md="12" lg="4" class="col">
             <div class="info">
                 <h4 style="color: var(--success)">{{parseInt(recovery).toLocaleString()}}</h4>
                 <h5 style="color: #a0aec0">{{recoveryText}}</h5>
             </div>
         </b-col>
-        <b-col sm="12" lg="4" class="col">
+        <b-col md="12" lg="4" class="col">
             <div class="info">
                 <h4 style="color: var(--danger)">{{parseInt(deads).toLocaleString()}}</h4>
                 <h5 style="color: #a0aec0">{{deadsText}}</h5>
@@ -51,7 +51,7 @@ export default {
         all: String,
         allText: String,
         allDeaths: String,
-        allDeathsText: String
+        allDeathsText: String,
     }
 }
 </script>
