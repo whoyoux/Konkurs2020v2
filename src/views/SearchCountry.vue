@@ -1,8 +1,10 @@
 <template>
   <div>
-      <b-container class="w-25">
+      <h1 class="mb-3">Znajdź dane w danym kraju</h1>
+      <h5 style="color: #a0aec0; font-weight: normal;" class="mr-2 ml-2">Wpisz nazwę kraju w języku angielskim</h5>
+      <b-container class="">
        <b-input
-            id="inline-form-input-name w-50"
+            id="inline-form-input-name width"
             class="mb-2 mr-sm-2 mb-sm-0"
             placeholder="np. Poland"
             v-model="country"
@@ -41,7 +43,8 @@ export default {
     
   },
   methods: {
-      async getInfo() {
+      async getInfo(e) {
+        e.preventDefault();
         try {
             if(this.country.trim() !== "") {
                 this.hasData = false;
@@ -74,5 +77,15 @@ export default {
 </script>
 
 <style>
+
+.width {
+    width: 25vw;
+}
+
+@media (max-width: 768px) {
+    .width {
+        width: 75vw;
+    }
+}
 
 </style>
