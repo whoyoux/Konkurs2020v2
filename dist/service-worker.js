@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.d4c427e721e277e3ac5cc392f7d55459.js"
+  "/precache-manifest.897fad06ba6737b278f84b61f91554fe.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "konkurs2020"});
