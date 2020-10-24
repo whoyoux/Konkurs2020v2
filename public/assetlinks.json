@@ -1,0 +1,5 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target" : { "namespace": "android_app", "package_name": "app.netlify.konkurs2020.twa",
+                   "sha256_cert_fingerprints": ["9A:37:ED:94:43:99:4E:63:8C:8C:6E:3E:59:F6:6F:B2:90:37:98:03:88:F4:56:5F:13:09:38:6B:93:A9:D1:49"] }
+    }]
