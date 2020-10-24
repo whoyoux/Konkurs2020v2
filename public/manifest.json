@@ -1,7 +1,6 @@
 {
   "name": "Koronawirus - ogólne informacje, dane",
   "short_name": "Koronawirus",
-  "theme_color": "#f56565",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
