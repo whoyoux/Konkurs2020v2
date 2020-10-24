@@ -8,12 +8,12 @@
         :recovery="`${new_recovery}`"
         :recoveryText="`Liczba wyzdrowień`"
         :deads="`${new_deads}`"
-        :deadsText="`Dzisiejsze zgony`"
+        :deadsText="`Dzisiejsza liczba zgonów`"
         :withAll=true
         :all="`${all}`"
         :allText="`Zakażenia`"
         :allDeaths="`${allDeaths}`"
-        :allDeathsText="`Zgony`"
+        :allDeathsText="`Liczba zgonów`"
       />
 
     <Stats

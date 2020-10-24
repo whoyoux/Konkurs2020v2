@@ -23,7 +23,7 @@
       </b-col>
       <b-col cols="12" md="4">
         <b-card class="p-3 text-center" no-body>
-          <h4 class="text-success">{{parseInt(recovery).toLocaleString()}}</h4>
+          <h4 class="text-success">{{getRecoveryText}}</h4>
           <h5 style="color: #a0aec0">{{recoveryText}}</h5>
         </b-card>
       </b-col>
@@ -53,6 +53,13 @@ export default {
         allText: String,
         allDeaths: String,
         allDeathsText: String,
+    },
+    computed: {
+      getRecoveryText() {
+        if(this.recovery !== "Brak danych") {
+          return parseInt(this.recovery).toLocaleString();
+        } else return "Brak danych";
+      }
     }
 }
 </script>
@@ -72,7 +79,7 @@ export default {
 
 @media(min-width: 992px) {
     .row {
-        width: 50vw;
+        width: 53vw;
     }
 }
 

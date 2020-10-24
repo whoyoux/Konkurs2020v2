@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1 class="mb-5">Liczba zakażen na świecie</h1>
+    <h1 class="mb-5">Liczba zakażeń na świecie</h1>
 
     <Stats 
         :sick="`${todayCases}`"
@@ -8,7 +8,7 @@
         :recovery="`${7800000000 - parseInt(active)}`"
         :recoveryText="`Liczba zdrowych`"
         :deads="`${todayDeaths}`"
-        :deadsText="`Dzisiejsze zgony`"
+        :deadsText="`Dzisiejsza liczba zgonów`"
       />
 
     <Stats
@@ -18,7 +18,7 @@
         :recovery="`${recovery}`"
         :recoveryText="`Liczba wyzdrowień`"
         :deads="`${deads}`"
-        :deadsText="`Zgony`"
+        :deadsText="`Liczba zgonów`"
       />
   </div>
 </template>
