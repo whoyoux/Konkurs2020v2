@@ -1,8 +1,9 @@
 module.exports = {
   pwa: {
     workboxPluginMode: "InjectManifest",
-    workboxOptions:{
+    workboxOptions: {
       swSrc: "src/service-worker.js",
       exclude: [/_redirects/]
+    }
   }
-};
+}
