@@ -6,4 +6,3 @@ self.addEventListener('message', (event) => {
 });
 
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
-self.precaching.precacheAndRoute(self.__precacheManifest, {});
