@@ -1,11 +1,9 @@
 module.exports = {
     pwa: {
-        workboxPluginMode: 'InjectManifest',
+        workboxPluginMode: 'GenerateSW',
         workboxOptions: {
-            // swSrc is required in InjectManifest mode.
-            swSrc: 'registerServiceWorker.js',
-            // ...other Workbox options...
-            exclude: [/_redirects/],
+          exclude: [/\.map$/, /_redirects/],
+          // ...other Workbox options...
         }
     }
 }
