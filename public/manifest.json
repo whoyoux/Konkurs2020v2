@@ -1,0 +1,9 @@
+{
+    "short_name": "Koronawirus",
+    "name": "Koronawirus - ogólne informacje, dane",
+    "start_url": "/",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#FFFFFF"
+  }

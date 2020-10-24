@@ -4,14 +4,14 @@
 
     <Stats 
         :sick="`${new_sick}`"
-        :sickText="`Dzisiejsze zachorowania`"
+        :sickText="`Dzisiejsze zakażenia`"
         :recovery="`${new_recovery}`"
-        :recoveryText="`Wyzdrowienia`"
+        :recoveryText="`Liczba wyzdrowień`"
         :deads="`${new_deads}`"
         :deadsText="`Dzisiejsze zgony`"
         :withAll=true
         :all="`${all}`"
-        :allText="`Wszystkie przypadki`"
+        :allText="`Zakażenia`"
         :allDeaths="`${allDeaths}`"
         :allDeathsText="`Zgony`"
       />

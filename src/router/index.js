@@ -25,6 +25,10 @@ const routes = [
     component: () => import('../views/SearchCountry.vue')
   },
   {
+    path: '/symptoms',
+    component: () => import('../views/Symptoms.vue')
+  },
+  {
     path: '/*',
     component: Home
     //Moze kiedys 404

@@ -33,8 +33,8 @@ export default {
         ". .";
 }
 .icon {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background-color: #f56565;
     color: white;
     border-radius: 5px;

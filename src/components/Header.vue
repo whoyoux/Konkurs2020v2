@@ -12,6 +12,7 @@
                 <b-nav-item to="/in_poland">Zakażenia w Polsce</b-nav-item>
                 <b-nav-item to="/search">Znajdź w danym kraju</b-nav-item>
                 <b-nav-item to="/prevention">Profilaktyka</b-nav-item>
+                <b-nav-item to="/symptoms">Objawy</b-nav-item>
             </b-navbar-nav>
         </b-collapse>
     </b-navbar>

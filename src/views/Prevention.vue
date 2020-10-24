@@ -9,7 +9,7 @@
         <PreventionListItem imgName="space.svg" title="Bezpieczna odległość" desc="Zachowaj bezpieczną odległość od innych osob."/>
         <PreventionListItem imgName="wash.svg" title="Dezynfekcja" desc="Dezynfekuj ręcę przed wejściem do sklepu, szkoły, urzędu itp."/>
         <PreventionListItem imgName="quarantine.svg" title="Kwarantanna" desc="Przestrzegaj kwarantanny. Nawet jeżeli nie widzisz objawów, możesz byc zakażony."/>
-        <PreventionListItem imgName="cough.svg" title="Objawy" desc="Jeżeli masz objawy to dzwoń do najbliższej stacja sanitarno epidemiologicznej."/>
+        <PreventionListItem imgName="cough.svg" title="Objawy" desc="Jeżeli masz objawy to dzwoń do najbliższej stacji sanitarno-epidemiologicznej."/>
       </ul>
   </div>
 </template>

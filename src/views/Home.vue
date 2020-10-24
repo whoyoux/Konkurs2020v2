@@ -4,8 +4,8 @@
 
     <Stats 
         :sick="`${todayCases}`"
-        :sickText="`Dzisiejsze zachorowania`"
-        :recovery="`${7000000000 - parseInt(active)}`"
+        :sickText="`Dzisiejsze zakażenia`"
+        :recovery="`${7800000000 - parseInt(active)}`"
         :recoveryText="`Liczba zdrowych`"
         :deads="`${todayDeaths}`"
         :deadsText="`Dzisiejsze zgony`"
@@ -14,9 +14,9 @@
     <Stats
       class="mt-3"
         :sick="`${sick}`"
-        :sickText="`Zachorowania`"
+        :sickText="`Zakażenia`"
         :recovery="`${recovery}`"
-        :recoveryText="`Wyzdrowienia`"
+        :recoveryText="`Liczba wyzdrowień`"
         :deads="`${deads}`"
         :deadsText="`Zgony`"
       />

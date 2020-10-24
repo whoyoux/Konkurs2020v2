@@ -1,22 +1,22 @@
 <template>
   <div>
-      <h1 class="mb-3">Znajdź dane w danym kraju</h1>
+      <h1 class="mb-3">Wyszukaj dane w danym kraju</h1>
       <h5 style="color: #a0aec0; font-weight: normal;" class="mr-2 ml-2">Wpisz nazwę kraju w języku angielskim</h5>
-      <b-container class="">
+      <b-container class="width">
        <b-input
-            id="inline-form-input-name width"
+            id="inline-form-input-name"
             class="mb-2 mr-sm-2 mb-sm-0"
             placeholder="np. Poland"
             v-model="country"
         ></b-input>
-        <b-button variant="outline-danger mt-3" @click="getInfo">Znajdź</b-button>
+        <b-button variant="outline-danger mt-3 mb-5" @click="getInfo">Wyszukaj</b-button>
       </b-container>
       <Stats 
         class="mt-4"
         :sick="`${all_sick}`"
-        :sickText="`Wszystkie zachorowania`"
+        :sickText="`Zakażenia`"
         :recovery="`${new_sick}`"
-        :recoveryText="`Dzisiejsze przypadki`"
+        :recoveryText="`Dzisiejsze zakażenia`"
         :deads="`${deads}`"
         :deadsText="`Wszystkie zgony`"
       />
@@ -79,7 +79,7 @@ export default {
 <style>
 
 .width {
-    width: 25vw;
+    width: 50vw;
 }
 
 @media (max-width: 768px) {
