@@ -42,7 +42,7 @@ const countries = [
   { name_pl: "Cypr", name_en: "Cyprus", code: "CY" },
   { name_pl: "Czad", name_en: "Chad", code: "TD" },
   { name_pl: "Czarnogóra", name_en: "Montenegro", code: "ME" },
-  { name_pl: "Czechy", name_en: "Czech", code: "CZ" },
+  { name_pl: "Czechy", name_en: "Czechia", code: "CZ" },
   { name_pl: "Dalekie Wyspy Mniejsze Stanów Zjednoczonych", name_en: "United States Minor Outlying Islands", code: "UM" },
   { name_pl: "Dania", name_en: "Denmark", code: "DK" },
   { name_pl: "Demokratyczna Republika Konga", name_en: "Congo, the Democratic Republic of the", code: "CD" },
